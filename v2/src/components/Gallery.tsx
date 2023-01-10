@@ -43,7 +43,7 @@ const Gallery = ({ config }: GalleryProps) => {
       }}
     >
       <Layout>
-        <Title>우리의 아름다운 순간</Title>
+        <Title>우리가 사랑했던 나날들</Title>
       </Layout>
       <Row gutter={[16, 16]}>
         {config.galleryImages.map((image, index) => (

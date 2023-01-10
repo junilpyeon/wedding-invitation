@@ -44,12 +44,12 @@ const Location = ({ config }: LocationProps) => {
       <Layout>
         <Title>오시는 길</Title>
         <SubTitle>
-          서울특별시 영등포구 은행로 30
+        서울특별시 강남구 대치2동 역삼로 607
           <br />
           <br />
-          국회의사당역 3번 출구로 나오셔서
+          삼성역 2번 출구로 나오셔서
           <br />
-          도보로 6분 거리입니다.
+          도보로 10분 거리입니다.
           <br />
           <br />
           <img

@@ -51,7 +51,7 @@ const Greeting = ({ config }: GreetingProps) => {
         <SubTitle>
           봄에 태어난 {config.bride.name}
           <br />
-          가을에 태어난 {config.groom.name}
+          봄에 태어난 {config.groom.name}
           <br />
           <br />
           관심사도, 가치관도 달랐던 두 사람

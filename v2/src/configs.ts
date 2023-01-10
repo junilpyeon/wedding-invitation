@@ -1,17 +1,21 @@
-import TitleImage from './resources/Title.png';
+import TitleImage from './resources/Title.jpg';
 import LocationMapImage from './resources/LocationMap.png';
-import GalleryPhoto1 from './resources/Gallery_Photo_1.png';
-import GalleryPhoto2 from './resources/Gallery_Photo_2.png';
-import GalleryPhoto3 from './resources/Gallery_Photo_3.png';
-import GalleryPhoto4 from './resources/Gallery_Photo_4.png';
-import GalleryPhoto5 from './resources/Gallery_Photo_5.png';
-import GalleryPhoto6 from './resources/Gallery_Photo_6.png';
+import GalleryPhoto1 from './resources/Gallery_Photo_1.jpg';
+import GalleryPhoto2 from './resources/Gallery_Photo_2.jpg';
+import GalleryPhoto3 from './resources/Gallery_Photo_3.jpg';
+import GalleryPhoto4 from './resources/Gallery_Photo_4.jpg';
+import GalleryPhoto5 from './resources/Gallery_Photo_5.jpg';
+import GalleryPhoto6 from './resources/Gallery_Photo_6.jpg';
+import GalleryPhoto7 from './resources/Gallery_Photo_7.jpg';
+import GalleryPhoto8 from './resources/Gallery_Photo_8.jpg';
+import GalleryPhoto9 from './resources/Gallery_Photo_9.jpg';
+import GalleryPhoto10 from './resources/Gallery_Photo_10.jpg';
 
 const Configs: ConfigsType = {
   url: 'http://localhost:3000',
   kakaoToken: '카카오톡 API 토큰을 입력해주세요!',
   kakaoImage: '카카오톡으로 공유할 때 사용되는 대표이미지 URL을 입력해주세요!',
-  weddingDate: '1970년 01월 01일, 목요일 오전 12시 00분',
+  weddingDate: '202X년 09월 02일, 목요일 오전 12시 00분',
   weddingLocation: '○○○웨딩, ○층 ○○홀',
   groom: {
     name: '○○○',
@@ -38,6 +42,10 @@ const Configs: ConfigsType = {
     GalleryPhoto4,
     GalleryPhoto5,
     GalleryPhoto6,
+    GalleryPhoto7,
+    GalleryPhoto8,
+    GalleryPhoto9,
+    GalleryPhoto10,
   ],
 };
 

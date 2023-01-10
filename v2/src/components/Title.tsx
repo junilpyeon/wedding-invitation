@@ -66,9 +66,9 @@ const Title = ({ config }: TitleProps) => {
       />
       <Section>
         <Layout>
-          <SubTitleLayout>WEDDING INVITATION</SubTitleLayout>
+          <SubTitleLayout>우리 결혼합니다!</SubTitleLayout>
           <TitleLayout>
-            {config.groom.name} &amp; {config.bride.name}
+            {config.groom.name} - {config.bride.name}
           </TitleLayout>
           <SubTitleLayout>
             {config.weddingDate}
