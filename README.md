@@ -2,11 +2,17 @@
 
 결혼식 초대를 위한 청첩장 템플릿입니다.  
 
-#주의사항
-1. 카카오톡 링크 공유 방법 : https://songsong.dev/14
-2. 서버 실행 : yarn start
-3. Github 무료 호스팅 : https://codingapple.com/unit/react-build-deploy-github-pages/
-4. Github Page Url : https://[user name].github.io/[repo name]/
+#환경 설정 및 주의사항
+1. VSCode 프로그램 설치 : https://crazykim2.tistory.com/748
+2. GIT 회원가입 : https://goddaehee.tistory.com/218
+3.소스 GIT fork : 깃헙페이지에서 진행
+4.VSCode 실행 후 cmd로 git clone (초기 git설치), .gitignore 파일 설명 : https://kim-oriental.tistory.com/31
+5.node 및 yarn, 모듈 설치 : https://offbyone.tistory.com/441, https://heropy.blog/2017/11/25/yarn/
+6.소스 설명 및 수정 부분 정리
+7. 카카오톡 링크 공유 방법 : https://songsong.dev/14
+8. 서버 실행 : yarn start
+9. Github 무료 호스팅 : https://codingapple.com/unit/react-build-deploy-github-pages/
+10. Github Page Url : https://[user name].github.io/[repo name]/
 
 ## Template Preview
 
@@ -22,90 +28,17 @@
 - 축의금을 보내실 곳 (계좌번호 클립보드 복사 기능 지원)
 - 카카오톡 공유 기능 및 링크 공유 기능
 
-## Wedding Invitation v1 사용 방법
+## Wedding Invitation 수정방법
 
-`./v1/public/index.html`의 `<head>` 부분을 알맞게 수정해 주세요.  
-```html
-<meta content="○○○❤○○○ 결혼식에 초대합니다" name="Title" />
-<meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Description" />
-<meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
-<meta property="og:title" content="○○○❤○○○ 결혼식에 초대합니다" />
-<meta property="og:description" content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" />
-<meta property="og:url" content="https://kyuhyuk.kr/wedding-invitation" />
-<meta name="theme-color" content="#BCAAA4" />
-```
+config.ts : 이미지 정보, 계좌 정보 입력, 웨딩날짜, 장소 변경
+Title.tsx :  제목 변경
+Greeting.tsx : 결혼합니다 글 부분
+Gallery.tsx : 사진부분 변경
+Location.tsx : 지도부분
+CongratulatoryMoney.tsx : 축의금 부분
+share.tsx : 공유하기 화면
+index.css :  폰트 변경, https://amaze9001.tistory.com/95
+색상표 참고하여 css 변경가능 : https://webruden.tistory.com/395
+리액트 외부 라이브러리 : Confetti, Title.tsx 파일에 있음
+version1 error 처리 : npm install -g win-node-env, npm install webpack -g
 
-`./v1/src/Config.ts`를 수정하여 사용합니다.  
-```typescript
-export const WEDDING_INVITATION_URL = 'http://localhost:8080';
-export const KAKAOTALK_API_TOKEN = '카카오톡 API 토큰을 입력해주세요!';
-export const KAKAOTALK_SHARE_IMAGE = '카카오톡으로 공유할 때 사용되는 대표이미지 URL을 입력해주세요!';
-
-export const WEDDING_DATE = '1970년 01월 01일, 목요일 오전 12시 00분';
-export const WEDDING_LOCATION = '○○○웨딩, ○층 ○○홀';
-
-export const GROOM_NAME = '○○○';
-export const GROOM_ACCOUNT_NUMBER = '○○은행 ***-***-******';
-export const GROOM_FATHER_NAME = '○○○';
-export const GROOM_FATHER_ACCOUNT_NUMBER = '○○은행 ***-***-******';
-export const GROOM_MOTHER_NAME = '○○○';
-export const GROOM_MOTHER_ACCOUNT_NUMBER = '○○은행 ***-***-******';
-
-export const BRIDE_NAME = '○○○';
-export const BRIDE_ACCOUNT_NUMBER = '○○은행 ***-***-******';
-export const BRIDE_FATHER_NAME = '○○○';
-export const BRIDE_FATHER_ACCOUNT_NUMBER = '○○은행 ***-***-******';
-export const BRIDE_MOTHER_NAME = '○○○';
-export const BRIDE_MOTHER_ACCOUNT_NUMBER = '○○은행 ***-***-******';
-```
-
-
-## Wedding Invitation v2 사용 방법
-
-`./v2/public/index.html`의 `<head>` 부분을 알맞게 수정해 주세요.  
-```html
-<meta content="○○○❤○○○ 결혼식에 초대합니다" name="Title" />
-<meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Description" />
-<meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
-<meta property="og:title" content="○○○❤○○○ 결혼식에 초대합니다" />
-<meta property="og:description" content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" />
-<meta property="og:url" content="https://kyuhyuk.kr/wedding-invitation" />
-<meta name="theme-color" content="#BCAAA4" />
-```
-
-`./v2/src/configs.ts`를 수정하여 사용합니다.  
-```typescript
-const Configs: ConfigsType = {
-  url: 'http://localhost:3000',
-  kakaoToken: '카카오톡 API 토큰을 입력해주세요!',
-  kakaoImage: '카카오톡으로 공유할 때 사용되는 대표이미지 URL을 입력해주세요!',
-  weddingDate: '1970년 01월 01일, 목요일 오전 12시 00분',
-  weddingLocation: '○○○웨딩, ○층 ○○홀',
-  groom: {
-    name: '○○○',
-    accountNumber: '○○은행 ***-***-******',
-    fatherName: '○○○',
-    fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
-    motherAccountNumber: '○○은행 ***-***-******',
-  },
-  bride: {
-    name: '○○○',
-    accountNumber: '○○은행 ***-***-******',
-    fatherName: '○○○',
-    fatherAccountNumber: '○○은행 ***-***-******',
-    motherName: '○○○',
-    motherAccountNumber: '○○은행 ***-***-******',
-  },
-  titleImage: TitleImage,
-  locationMapImage: LocationMapImage,
-  galleryImages: [
-    GalleryPhoto1,
-    GalleryPhoto2,
-    GalleryPhoto3,
-    GalleryPhoto4,
-    GalleryPhoto5,
-    GalleryPhoto6,
-  ],
-};
-```
