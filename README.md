@@ -2,7 +2,7 @@
 
 결혼식 초대를 위한 청첩장 템플릿입니다.  
 
-#환경 설정 및 주의사항
+## 환경 설정 및 주의사항
 1. VSCode 프로그램 설치 : https://crazykim2.tistory.com/748
 2. GIT 회원가입 : https://goddaehee.tistory.com/218
 3.소스 GIT fork : 깃헙페이지에서 진행
@@ -14,7 +14,7 @@
 9. Github 무료 호스팅 : https://codingapple.com/unit/react-build-deploy-github-pages/
 10. Github Page Url : https://[user name].github.io/[repo name]/
 
-## Template Preview
+## 결과 미리보기
 
 ### Wedding Invitation v1
 ![Preview v1](./Preview_v1.gif)
@@ -28,7 +28,7 @@
 - 축의금을 보내실 곳 (계좌번호 클립보드 복사 기능 지원)
 - 카카오톡 공유 기능 및 링크 공유 기능
 
-## Wedding Invitation 수정방법
+⭐## 청첩장 소스 수정방법
 
 config.ts : 이미지 정보, 계좌 정보 입력, 웨딩날짜, 장소 변경
 
