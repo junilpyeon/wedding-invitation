@@ -1,7 +1,12 @@
 # Wedding Invitation React.js Template
 
 결혼식 초대를 위한 청첩장 템플릿입니다.  
-이 저장소가 마음에 들거나 사용하게 되신다면, Star와 Fork 부탁드리겠습니다😉
+
+#주의사항
+1. 카카오톡 링크 공유 방법 : https://songsong.dev/14
+2. 서버 실행 : yarn start
+3. Github 무료 호스팅 : https://codingapple.com/unit/react-build-deploy-github-pages/
+4. Github Page Url : https://[user name].github.io/[repo name]/
 
 ## Template Preview
 
