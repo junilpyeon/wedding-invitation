@@ -30,25 +30,16 @@
 
 ## 청첩장 소스 수정방법⭐
 
-config.ts : 이미지 정보, 계좌 정보 입력, 웨딩날짜, 장소 변경
-
-Title.tsx :  제목 변경
-
-Greeting.tsx : 결혼합니다 글 부분
-
-Gallery.tsx : 사진부분 변경
-
-Location.tsx : 지도부분
-
-CongratulatoryMoney.tsx : 축의금 부분
-
-share.tsx : 공유하기 화면
-
-index.css :  폰트 변경, https://amaze9001.tistory.com/95
-
-색상표 참고하여 css 변경가능 : https://webruden.tistory.com/395
-
-리액트 외부 라이브러리 : Confetti, Title.tsx 파일에 있음
-
-version1 error 처리 : npm install -g win-node-env, npm install webpack -g
+config.ts : 이미지 정보, 계좌 정보 입력, 웨딩날짜, 장소 변경  
+Title.tsx :  제목 변경  
+Greeting.tsx : 결혼합니다 글 부분  
+Gallery.tsx : 사진부분 변경  
+Location.tsx : 지도부분  
+CongratulatoryMoney.tsx : 축의금 부분  
+share.tsx : 공유하기 화면  
+index.css :  폰트 변경, https://amaze9001.tistory.com/95  
+색상표 참고하여 css 변경가능 : https://webruden.tistory.com/395  
+리액트 외부 라이브러리 : Confetti, Title.tsx 파일에 있음  
+version1 error 처리 : npm install -g win-node-env, npm install webpack -g  
+무료 영상 템플릿 : https://www.pexels.com/ko-kr/
 
