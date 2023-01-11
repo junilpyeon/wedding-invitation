@@ -5,10 +5,10 @@
 ## 환경 설정 및 주의사항  
 1. VSCode 프로그램 설치 : https://crazykim2.tistory.com/748  
 2. GIT 회원가입 : https://goddaehee.tistory.com/218  
-3.소스 GIT fork : 깃헙페이지에서 진행  
-4.VSCode 실행 후 cmd로 git clone (초기 git설치), .gitignore 파일 설명 : https://kim-oriental.tistory.com/31  
-5.node 및 yarn, 모듈 설치 : https://offbyone.tistory.com/441, https://heropy.blog/2017/11/25/yarn/  
-6.소스 설명 및 수정 부분 정리  
+3. 소스 GIT fork : 깃헙페이지에서 진행  
+4. VSCode 실행 후 cmd로 git clone (초기 git설치), .gitignore 파일 설명 : https://kim-oriental.tistory.com/31  
+5. node 및 yarn, 모듈 설치 : https://offbyone.tistory.com/441, https://heropy.blog/2017/11/25/yarn/  
+6. 소스 설명 및 수정 부분 정리  
 7. 카카오톡 링크 공유 방법 : https://songsong.dev/14  
 8. 서버 실행 : yarn start  
 9. Github 무료 호스팅 : https://codingapple.com/unit/react-build-deploy-github-pages/  
